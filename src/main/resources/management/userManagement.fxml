@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="387.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.userController.UserManagementController">
+   <children>
+      <ImageView fitHeight="396.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/office-worker-space-blur-background-260nw-1309022389.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="125.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fashion Flair" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Script MT Bold" size="64.0" />
+         </font>
+      </Text>
+      <Button layoutX="213.0" layoutY="100.0" mnemonicParsing="false" onAction="#btnAddCustomerOnAction" prefHeight="39.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="Add User" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="213.0" layoutY="153.0" mnemonicParsing="false" onAction="#btnUpdateCustomerOnAction" prefHeight="39.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="Update User" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="212.0" layoutY="204.0" mnemonicParsing="false" onAction="#btnSearchCustomerOnAction" prefHeight="39.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="Search User" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="211.0" layoutY="257.0" mnemonicParsing="false" onAction="#btnDeleteCustomerOnAction" prefHeight="39.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="Delete User" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="210.0" layoutY="308.0" mnemonicParsing="false" onAction="#btnViewCustomerOnAction" prefHeight="39.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="View User" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="493.0" layoutY="343.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="20.0" prefWidth="63.0" style="-fx-background-color: #7f8c8d;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

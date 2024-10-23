@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8fd5dbe7-e71f-49a0-a915-dfa06f667ce0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Starter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/DashBoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/LogFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/NewUserFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/OrderManagementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/SupplierManagementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/productController/AddProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/productController/DeleteProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/productController/ProductManagementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/productController/SearchProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/productController/UpdateProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/productController/ViewProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/userController/AddUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/userController/DeleteUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/userController/SearchUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/userController/UpdateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/userController/UserManagementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/userController/ViewUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dashBoard/dash_board.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/360_F_872062398_P92j6EmyTvx2oS8JXD0ezsbTucUJEacR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/abstract-blur-background-people-wait-260nw-549985966.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/abstract-blurred-two-business-people-260nw-567174547.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/abstract-blurred-two-business-people-260nw-567174547.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/abstract-blurry-modern-fashion-clothes-store-in-a-shopping-mall-for-background-clothing-shopping-concept-2AA8PK7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/apparel-attire-blur-boutique-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/depositphotos_386772646-stock-illustration-family-choosing-wallpaper-flat-color.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/desktop-wallpaper-blur-blue-abstract-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/empty-blurry-mall-background-defocused-600nw-2055308855.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/istockphoto-882448732-612x612.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/loginBackGround.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/office-worker-space-blur-background-260nw-1309022389.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log/mainPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/management/orderManagement.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/management/productManagement.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/management/supplierManagement.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/management/userManagement.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/productManagement/add_Product.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/productManagement/delete_Product.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/productManagement/search_Product.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/productManagement/update_Product.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/productManagement/view_Product.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/user/newuser_signup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userManagement/add_User.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userManagement/delete_User.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userManagement/search_User.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userManagement/update_User.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userManagement/view_User.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2nYZZCXmK7V4Go4QDtqE6VpGe4v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Starter.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java FX/ThogakadeCW&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fd5dbe7-e71f-49a0-a915-dfa06f667ce0" name="Changes" comment="" />
+      <created>1729152026389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729152026389</updated>
+    </task>
+    <servers />
+  </component>
+</project>

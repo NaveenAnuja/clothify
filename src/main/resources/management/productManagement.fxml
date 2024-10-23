@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="385.0" prefWidth="577.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.productController.ProductManagementController">
+   <children>
+      <ImageView fitHeight="405.0" fitWidth="586.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/apparel-attire-blur-boutique-thumbnail.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="134.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fashion Flair" textAlignment="JUSTIFY" wrappingWidth="350.125">
+         <font>
+            <Font name="Script MT Bold" size="64.0" />
+         </font>
+      </Text>
+      <Button layoutX="223.0" layoutY="98.0" mnemonicParsing="false" onAction="#btnAddProductOnAction" prefHeight="39.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="Add Product" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="223.0" layoutY="151.0" mnemonicParsing="false" onAction="#btnUpdateProductOnAction" prefHeight="39.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="Update Product" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="460.0" layoutY="329.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="20.0" prefWidth="63.0" style="-fx-background-color: #7f8c8d;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="224.0" layoutY="202.0" mnemonicParsing="false" onAction="#btnSearchProductOnAction" prefHeight="39.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="Search Product" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="224.0" layoutY="253.0" mnemonicParsing="false" onAction="#btnDeleteProductOnAction" prefHeight="39.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="Delete Product" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="223.0" layoutY="305.0" mnemonicParsing="false" onAction="#btnViewCustomerOnAction" prefHeight="39.0" prefWidth="173.0" style="-fx-background-color: #2c3e50;" text="View Product" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
