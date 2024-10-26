@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.NewUserFormController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.UserFormController">
    <children>
       <ImageView fitHeight="453.0" fitWidth="610.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -27,7 +27,7 @@
       </Text>
       <TextField fx:id="txtEmployeeId" layoutX="257.0" layoutY="143.0" prefHeight="25.0" prefWidth="165.0" promptText="Employee ID" />
       <TextField fx:id="TxtEmployeeName" layoutX="257.0" layoutY="195.0" prefHeight="25.0" prefWidth="165.0" promptText="Name" />
-      <TextField fx:id="txtCompany" layoutX="258.0" layoutY="249.0" prefHeight="25.0" prefWidth="165.0" promptText="Company Name" />
+      <TextField fx:id="txtAddress" layoutX="258.0" layoutY="249.0" prefHeight="25.0" prefWidth="165.0" promptText="Address" />
       <TextField fx:id="txtEmail" layoutX="257.0" layoutY="303.0" prefHeight="25.0" prefWidth="165.0" promptText="Email Address" />
       <Text layoutX="201.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID  :" wrappingWidth="35.607452392578125">
          <font>
@@ -39,7 +39,7 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Text>
-      <Text layoutX="138.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Company  :" wrappingWidth="97.60745239257812">
+      <Text layoutX="138.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address  :" wrappingWidth="97.60745239257812">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>

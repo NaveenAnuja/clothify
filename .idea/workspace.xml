@@ -5,62 +5,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fd5dbe7-e71f-49a0-a915-dfa06f667ce0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Starter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/DashBoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/LogFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/NewUserFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/OrderManagementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/SupplierManagementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/productController/AddProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/productController/DeleteProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/productController/ProductManagementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/productController/SearchProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/productController/UpdateProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/productController/ViewProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/userController/AddUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/userController/DeleteUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/userController/SearchUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/userController/UpdateUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/userController/UserManagementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/userController/ViewUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dashBoard/dash_board.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/360_F_872062398_P92j6EmyTvx2oS8JXD0ezsbTucUJEacR.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/abstract-blur-background-people-wait-260nw-549985966.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/abstract-blurred-two-business-people-260nw-567174547.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/abstract-blurred-two-business-people-260nw-567174547.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/abstract-blurry-modern-fashion-clothes-store-in-a-shopping-mall-for-background-clothing-shopping-concept-2AA8PK7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/apparel-attire-blur-boutique-thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/depositphotos_386772646-stock-illustration-family-choosing-wallpaper-flat-color.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/desktop-wallpaper-blur-blue-abstract-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/empty-blurry-mall-background-defocused-600nw-2055308855.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/istockphoto-882448732-612x612.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/loginBackGround.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/office-worker-space-blur-background-260nw-1309022389.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log/mainPage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/management/orderManagement.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/management/productManagement.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/management/supplierManagement.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/management/userManagement.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/productManagement/add_Product.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/productManagement/delete_Product.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/productManagement/search_Product.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/productManagement/update_Product.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/productManagement/view_Product.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/user/newuser_signup.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/userManagement/add_User.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/userManagement/delete_User.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/userManagement/search_User.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/userManagement/update_User.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/userManagement/view_User.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ItemController/ItemDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/OwnerDashBoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/OwnerFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/UserDashBoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/UserFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/orderController/PlaceOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/supplierController/AddSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/supplierController/DeleteSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/supplierController/SearchSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/supplierController/UpdateSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/supplierController/ViewSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/ItemEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/OrderEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/SupplierEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/CartTm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/CrudDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/DaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/SuperDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/custom/ItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/custom/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/custom/SupplierDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/custom/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/custom/impl/ItemDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/custom/impl/OrderDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/custom/impl/SupplierDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/custom/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/SuperService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/custom/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/custom/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/custom/SupplierService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/custom/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/custom/impl/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/custom/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/custom/impl/SupplierServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/custom/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/DaoType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/ServiceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/itemManagement/item_Details.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/supplierManagement/delete_Supplier.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/supplierManagement/search_Supplier.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/supplierManagement/update_Supplier.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/supplierManagement/view_Supplier.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/user/owner_Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DashBoardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/LogFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/LogFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/NewUserFormController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/OrderManagementController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/SupplierManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/supplierController/SupplierManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/productController/AddProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/productController/DeleteProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/productController/ProductManagementController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/productController/SearchProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/productController/UpdateProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/productController/ViewProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/userController/AddUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/userController/AddUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/userController/DeleteUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/userController/DeleteUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/userController/SearchUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/userController/SearchUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/userController/UpdateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/userController/UpdateUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/userController/UserManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/userController/UserManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/userController/ViewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/userController/ViewUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/dashBoard/dash_board.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dashBoard/owner_dash_board.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log/mainPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log/mainPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/management/orderManagement.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/management/productManagement.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/management/supplierManagement.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/supplierManagement/supplierManagement.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/management/userManagement.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/userManagement/userManagement.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/productManagement/add_Product.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/productManagement/delete_Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log/owner_Log.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/productManagement/search_Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/orderManagement/place_Order.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/productManagement/update_Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/supplierManagement/add_Supplier.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/productManagement/view_Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dashBoard/user_dash_board.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/user/newuser_signup.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user/newuser_signup.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/userManagement/add_User.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/userManagement/add_User.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/userManagement/delete_User.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/userManagement/delete_User.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/userManagement/search_User.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/userManagement/search_User.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/userManagement/update_User.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/userManagement/update_User.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +100,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="Enum" />
         <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,23 +119,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Starter.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/java FX/ThogakadeCW&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Application.Starter.executor": "Run",
+    "Maven.clothingStore [clean].executor": "Run",
+    "Maven.clothingStore [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/java FX/ThogakadeCW"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java FX\Cloth Store\clothingStore\src\main\resources\supplierManagement" />
+      <recent name="D:\java FX\Cloth Store\clothingStore\src\main\resources\userManagement" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="clothingStore" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

@@ -9,10 +9,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="366.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.userController.UpdateUser">
+<AnchorPane prefHeight="375.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.userController.UpdateUser">
    <children>
-      <ImageView fitHeight="381.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="375.0" fitWidth="637.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../image/desktop-wallpaper-blur-blue-abstract-background.jpg" />
          </image>
@@ -22,46 +21,52 @@
             <Font name="System Bold" size="36.0" />
          </font>
       </Text>
-      <Button layoutX="253.0" layoutY="316.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="36.0" prefWidth="77.0" style="-fx-background-color: #e1b12c;" text="Update">
+      <Button layoutX="243.0" layoutY="325.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="36.0" prefWidth="77.0" style="-fx-background-color: #e1b12c;" text="Update">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
       </Button>
-      <Text layoutX="100.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Name">
+      <Text layoutX="104.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Name">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <Text layoutX="100.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Address">
+      <Text layoutX="104.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Address">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <Text layoutX="100.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User e-mail" wrappingWidth="158.31771850585926">
+      <Text layoutX="104.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User e-mail" wrappingWidth="158.31771850585926">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <Text layoutX="100.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Contact NO" wrappingWidth="191.65104675292957">
+      <Text layoutX="104.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Contact NO" wrappingWidth="191.65104675292957">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <TextField fx:id="txtUserAddress" layoutX="320.0" layoutY="183.0" prefHeight="25.0" prefWidth="200.0" />
-      <TextField fx:id="txtUserName" layoutX="320.0" layoutY="134.0" prefHeight="25.0" prefWidth="200.0" />
-      <TextField fx:id="txtUserNumber" layoutX="320.0" layoutY="266.0" prefHeight="25.0" prefWidth="200.0" />
-      <TextField fx:id="txtUserEmail" layoutX="320.0" layoutY="226.0" prefHeight="25.0" prefWidth="200.0" />
-      <Button layoutX="490.0" layoutY="316.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="29.0" prefWidth="59.0" style="-fx-background-color: #718093;" text="Back">
+      <TextField fx:id="txtUserAddress" layoutX="324.0" layoutY="161.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="txtUserName" layoutX="324.0" layoutY="120.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="txtUserNumber" layoutX="324.0" layoutY="291.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="txtUserEmail" layoutX="324.0" layoutY="201.0" prefHeight="25.0" prefWidth="200.0" />
+      <Button layoutX="480.0" layoutY="325.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="29.0" prefWidth="59.0" style="-fx-background-color: #718093;" text="Back">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
       </Button>
-      <Text layoutX="100.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search User ID :" wrappingWidth="129.2607421875">
+      <Text layoutX="104.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search User ID :" wrappingWidth="129.2607421875">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <TextField fx:id="txtUserID" layoutX="320.0" layoutY="75.0" prefHeight="25.0" prefWidth="200.0" promptText="Enter the User ID" />
-      <Line endX="499.0" endY="7.62939453125E-6" layoutX="101.0" layoutY="114.0" startX="-100.0" />
+      <TextField fx:id="txtUserID" layoutX="324.0" layoutY="65.0" onAction="#txtIdOnAction" prefHeight="25.0" prefWidth="200.0" promptText="Enter the User ID" />
+      <Line endX="499.0" endY="7.62939453125E-6" layoutX="101.0" layoutY="103.0" startX="-100.0" />
+      <Text layoutX="104.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="158.31771850585926">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtPasssword" layoutX="324.0" layoutY="247.0" prefHeight="25.0" prefWidth="200.0" />
    </children>
 </AnchorPane>

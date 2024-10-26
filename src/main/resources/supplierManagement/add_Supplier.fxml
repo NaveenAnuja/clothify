@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="389.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.supplierController.AddSupplier">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/natural-light-blue-background-bokeh-260nw-1495848059.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="141.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Supplier Form">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="101.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supplier Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="101.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supplier Address">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="101.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supplier e-mail" wrappingWidth="158.31771850585926">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="101.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supplier Company" wrappingWidth="191.65104675292957">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtsupplierAddress" layoutX="321.0" layoutY="215.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="txtsupplierName" layoutX="321.0" layoutY="125.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="txtsupplierCompany" layoutX="321.0" layoutY="301.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="txtsupplierEmail" layoutX="321.0" layoutY="259.0" prefHeight="25.0" prefWidth="200.0" />
+      <Button layoutX="502.0" layoutY="339.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="29.0" prefWidth="59.0" style="-fx-background-color: #718093;" text="Back">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Text layoutX="101.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supplier ID">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtsupplierID" layoutX="321.0" layoutY="85.0" prefHeight="25.0" prefWidth="200.0" />
+      <Text layoutX="101.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supplier Item">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtSupplierItem" layoutX="321.0" layoutY="170.0" prefHeight="25.0" prefWidth="200.0" />
+      <Button layoutX="263.0" layoutY="339.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#btnAddSupplierOnAction" prefHeight="29.0" prefWidth="59.0" style="-fx-background-color: green;" text="ADD">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

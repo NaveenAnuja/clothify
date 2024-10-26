@@ -13,12 +13,12 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LogFormController">
    <children>
-      <ImageView fitHeight="400.0" fitWidth="611.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="452.0" fitWidth="650.0" layoutY="-4.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../image/loginBackGround.jpg" />
          </image>
       </ImageView>
-      <Text layoutX="127.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fashion Flair" textAlignment="JUSTIFY">
+      <Text layoutX="149.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fashion Flair" textAlignment="JUSTIFY">
          <font>
             <Font name="Script MT Bold" size="64.0" />
          </font>
@@ -28,106 +28,111 @@
             <Font size="24.0" />
          </font>
       </Text>
-      <TextField fx:id="txtUserName" layoutX="353.0" layoutY="172.0" prefHeight="35.0" prefWidth="235.0" promptText="User Name">
+      <TextField fx:id="txtEmail" layoutX="353.0" layoutY="161.0" prefHeight="39.0" prefWidth="268.0" promptText="E-mail">
          <font>
             <Font size="18.0" />
          </font>
       </TextField>
-      <TextField fx:id="txtPassword" layoutX="353.0" layoutY="223.0" prefHeight="35.0" prefWidth="235.0" promptText="Password">
+      <TextField fx:id="txtPassword" layoutX="353.0" layoutY="212.0" prefHeight="39.0" prefWidth="268.0" promptText="Password">
          <font>
             <Font size="18.0" />
          </font>
       </TextField>
-      <Button layoutX="438.0" layoutY="342.0" mnemonicParsing="false" onAction="#btnLoginOnAction" prefHeight="27.0" prefWidth="61.0" style="-fx-background-color: #2980b9;" text="Login" textAlignment="JUSTIFY">
+      <Button layoutX="446.0" layoutY="322.0" mnemonicParsing="false" onAction="#btnLoginOnAction" prefHeight="27.0" prefWidth="61.0" style="-fx-background-color: #2980b9;" text="Login" textAlignment="JUSTIFY">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Button>
-      <Hyperlink layoutX="473.0" layoutY="283.0" onAction="#linkSingUpOnAction" text="Sign Up" textFill="#695a5a">
-         <font>
-            <Font name="System Bold" size="14.0" />
-         </font>
-      </Hyperlink>
-      <Text layoutX="396.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New User ?">
-         <font>
-            <Font size="14.0" />
-         </font>
-      </Text>
       <Text layoutX="46.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a5adb5" height="309.0" layoutX="38.0" layoutY="79.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="2.0" width="275.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a5adb5" height="309.0" layoutX="38.0" layoutY="88.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="2.0" width="275.0">
          <effect>
             <ColorAdjust />
          </effect>
       </Rectangle>
-      <Text layoutX="48.0" layoutY="105.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Welcome to Fashion Flair, where " wrappingWidth="235.33333333333326">
+      <Text layoutX="48.0" layoutY="114.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Welcome to Fashion Flair, where " wrappingWidth="235.33333333333326">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="50.0" layoutY="124.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="every piece tells a story of elegance,">
+      <Text layoutX="50.0" layoutY="133.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="every piece tells a story of elegance,">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="48.0" layoutY="146.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text=" trend, and individuality.">
+      <Text layoutX="48.0" layoutY="155.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text=" trend, and individuality.">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="47.0" layoutY="165.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text=" Our curated collection is designed" wrappingWidth="237.2958984375">
+      <Text layoutX="47.0" layoutY="174.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text=" Our curated collection is designed" wrappingWidth="237.2958984375">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="50.0" layoutY="187.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="to inspire confidence and express" wrappingWidth="225.53448486328125">
+      <Text layoutX="50.0" layoutY="196.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="to inspire confidence and express" wrappingWidth="225.53448486328125">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="49.0" layoutY="204.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="the unique beauty of every customer." wrappingWidth="250.8677978515625">
+      <Text layoutX="49.0" layoutY="213.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="the unique beauty of every customer." wrappingWidth="250.8677978515625">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="119.0" layoutY="233.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="From timeless classics to " wrappingWidth="177.53448486328125">
+      <Text layoutX="119.0" layoutY="242.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="From timeless classics to " wrappingWidth="177.53448486328125">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="51.0" layoutY="252.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="the latest trends, we offer fashion that " wrappingWidth="258.86785888671875">
+      <Text layoutX="51.0" layoutY="261.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="the latest trends, we offer fashion that " wrappingWidth="258.86785888671875">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="51.0" layoutY="272.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="blends comfort with sophistication." wrappingWidth="237.2958984375">
+      <Text layoutX="51.0" layoutY="281.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="blends comfort with sophistication." wrappingWidth="237.2958984375">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="51.0" layoutY="292.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="Whether you’re dressing for acasual" wrappingWidth="250.8677978515625">
+      <Text layoutX="51.0" layoutY="301.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="Whether you’re dressing for acasual" wrappingWidth="250.8677978515625">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="48.0" layoutY="312.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text=" day out or a special occasion," wrappingWidth="204.201171875">
+      <Text layoutX="48.0" layoutY="321.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text=" day out or a special occasion," wrappingWidth="204.201171875">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="51.0" layoutY="334.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="Fashion Flair is your go-to destination" wrappingWidth="250.8677978515625">
+      <Text layoutX="51.0" layoutY="343.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text="Fashion Flair is your go-to destination" wrappingWidth="250.8677978515625">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="47.0" layoutY="355.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text=" for apparel that defines your style," wrappingWidth="250.8677978515625">
+      <Text layoutX="47.0" layoutY="364.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text=" for apparel that defines your style," wrappingWidth="250.8677978515625">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="47.0" layoutY="375.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text=" effortlessly.&quot;" wrappingWidth="204.201171875">
+      <Text layoutX="47.0" layoutY="384.0" opacity="0.8" strokeType="OUTSIDE" strokeWidth="0.0" text=" effortlessly.&quot;" wrappingWidth="204.201171875">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
+      <Hyperlink layoutX="483.0" layoutY="387.0" onAction="#linkNewOwnerLoginOnAction" text="Login&gt;&gt;" textFill="#695a5a">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Hyperlink>
+      <Text layoutX="406.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="as a owner?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Hyperlink layoutX="418.0" layoutY="270.0" onAction="#linkForgotPasswordOnAction" text="forgot password" textFill="#353630">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Hyperlink>
    </children>
 </AnchorPane>

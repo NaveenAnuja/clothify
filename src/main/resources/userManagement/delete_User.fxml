@@ -60,7 +60,7 @@
             <Font size="18.0" />
          </font>
       </Text>
-      <TextField fx:id="txtUserID" layoutX="330.0" layoutY="76.0" prefHeight="25.0" prefWidth="200.0" promptText="Enter the User ID" />
+      <TextField fx:id="txtUserID" layoutX="330.0" layoutY="76.0" onAction="#txtIdOnAction" prefHeight="25.0" prefWidth="200.0" promptText="Enter the User ID" />
       <Line endX="488.282470703125" layoutX="111.0" layoutY="115.0" startX="-111.99999237060547" />
    </children>
 </AnchorPane>
